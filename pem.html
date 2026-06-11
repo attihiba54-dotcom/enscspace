@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="shortcut icon" href="./assets/logo-fr2.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style2.css">
+    <title>PEM</title>
+</head>
+<body>
+ 
+<div class="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
+     <img  class="fixed top-0 left-0 w-full h-full object-cover  -z-10 md:hidden" src="./assets/pexels-steve-29474097.jpg" alt="">
+    <video autoplay loop muted playsinline class="w-full h-full object-cover -z-10 hidden md:block"  src="./assets/188288-882243044_medium.mp4 " type="video/mp4"></video>
+   </div>
+   <div >
+  <nav class="flex  bg-yellow-600 text-white m-1 p-6 rounded-4xl justify-center md:justify-between">
+    <div class="flex flex-col md:flex-row gap-5 text-2xl">
+      <a class="text-white hover:text-black" href="index.html">Home</a> 
+      <a class="text-white hover:text-black" href="https://www.instagram.com/ensc_students/">Contact</a>
+    <a class="text-white hover:text-black" href="ens.html"> Ensc Space</a>
+    
+     
+    </div>
+    <div>
+      <h1 class="text-2xl"><strong><SPan style="color: rgba(235, 212, 193, 0.541);">PEM</SPan> استاذ التعليم المتوسط</strong></h1>
+      
+    </div>
+    
+  </nav>
+</div>
+<lottie-player
+        src="./assets/db6a52f8-118b-11ee-bc7f-fb5a7d13aebc.json"
+        autoplay
+        loop
+        background="transparent"
+        style="width: 200px; height: 200px"
+        class="items-center sm: items-center"
+      >
+      </lottie-player>
+   <!-- 1 div kbira  -->
+   <div class=" flex-col text-center flex-col  md:flex-row text-center justify-center  gap-5 md:gap-60">
+    <select name="النطام" id="sp" class=" bg-yellow-600  text-white w-80 h-17 text-xl  rounded-4xl p-4  cursor-pointer hover:bg-white hover:text-yellow-600 m-6 border-2">
+      <option  value=""selected disabled> اختر  النظام</option>
+      <option value="s1">   النظام الجديد </option>
+      <option value="s2"> النظام القديم </option>
+    </select>
+      <div class="flex-col gap-6">
+<div class="flex-col gap-5">
+       <select id="ha" name="التخصص" class="bg-yellow-600 text-white w-80 h-17 text-xl rounded-4xl p-4 cursor-pointer hover:bg-white hover:text-yellow-600 m-4 border-2"> 
+         <option value="" selected disabled>اختر  تخصص</option>
+         <option value="info2">informatique</option>
+        <option value="math2"> Mathematics</option>
+        <option value="phy2">Physics</option>
+        <option value="scienc2"> Sciences</option>
+        <option value="arb2"> Arabic</option>
+        <option value="en2">English </option>
+        <option value="fr2">French </option>
+        <option value="his2">History-Geography</option>
+        <option value="falsfa2">Philosophy</option>
+        <option style="display: none;" value="islm2">Islamic</option>
+        <option style="display: none;" value="sport2">Sport</option>
+        
+
+        </select>
+      </div>
+      </div>
+      
+    
+        
+        
+      
+      </div>
+    
+   </div>
+  
+    </div>
+    <div class="text-center">
+       <a href="./pemex.html">
+         <button type="button" id="btn"
+                class="border-2 py-2 px-8 rounded-full text-white hover:text-yellow-600 font-semibold cursor-pointer"
+              >
+                 <i class="fa-solid fa-arrow-right"></i></button
+            ></a>
+    </div>
+    <script src="idexpem.js" defer></script>
+</body>
+
+</html>

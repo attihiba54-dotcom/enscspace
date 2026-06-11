@@ -1,0 +1,20 @@
+.home{
+    background-color:rgb(228, 152, 37) ;
+    di
+    position:fixed;
+    top: 25px;
+    right: 10px;
+    left: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px;
+} 
+video::-webkit-media-controls{
+    display: non;
+}
+video::-webkit-media-controls-play-button{
+    display: none;
+}
+video{
+    pointer-events: none;
+}
