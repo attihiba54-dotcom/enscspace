@@ -37,6 +37,11 @@
       <div class="bt"> 
         <a href="ens.html"><button>ENS SPACE</button></a>
 
+      </div><button id="install-button" style="display:none; padding: 15px; background: #d97706; color: white; border: none; border-radius: 10px;">
+  تثبيت التطبيق على هاتفك
+</button>
+      <div>
+
       </div>
       </div>
     <div class="contact">
@@ -46,5 +51,11 @@
 
 
     </div>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log('Service Worker Registered!'));
+  }
+</script>
   </body>
 </html>
