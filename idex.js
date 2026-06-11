@@ -16,6 +16,7 @@ botton.addEventListener("click", function (e) {
 
   window.location.href = "pesex.html";
 });
+showInstallButton();
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
