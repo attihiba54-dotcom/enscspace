@@ -6,6 +6,7 @@ const links = {
     math2: {
       1: "https://drive.google.com/drive/folders/11n6qJfD3nSuKxFsIFs5B0ce-ZvHZRDDP?usp=drive_link",
       2: "https://drive.google.com/drive/folders/12ZrQhwSTqRqoKvviQentPjgqPDGAUC_4?usp=drive_link",
+      3:"https://drive.google.com/drive/folders/1kQxWdGKct0TdOR3DbQfG-Zt1yUv-1Ksh?usp=drive_link",
       4: "https://drive.google.com/drive/folders/1sBix409Qu6fpOPWhQG1ho17wQvueQDgk?usp=drive_link",
       5: "https://drive.google.com/drive/folders/1m2WuvSy5InL_-SZGCqSGDgQZVi-8YDfb?usp=drive_link",
       6: "https://drive.google.com/drive/folders/10Dfw1ZqU6y7E0pK5m3-loQrFq4T9kULF?usp=drive_link",
