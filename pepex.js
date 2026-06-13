@@ -46,7 +46,7 @@ const links = {
     },
     en2: {
       1: "https://drive.google.com/drive/folders/16DtDdwfzUIynYmNaAvThFz0mvu3I6W0p?usp=drive_link",
-      2: "https://drive.google.com/drive/folders/1_s19shYvWn52ekCA1x50dvSSJdroKDdG?usp=drive_link",
+      2: "https://drive.google.com/drive/folders/1wcniKk9-qG51IjxNkePiNeiyK2jaQL0F?usp=drive_link",
       3: "https://drive.google.com/drive/folders/185GeFLb1uuXoVLsy603s8NM4sXF8hloC?usp=drive_link",
     },
     sport2: {
